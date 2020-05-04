@@ -1,0 +1,12 @@
+package Aula2;
+
+public class Profissional extends PessoaConstrutor {
+	String profissao;
+	
+	Profissional(String nome, String telefone, String Profissao){
+		//Super para ter acesso atributos e métodos da classe original
+		super(nome, telefone);
+		this.profissao = profissao;
+	}
+
+}
