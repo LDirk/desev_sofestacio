@@ -1,0 +1,22 @@
+package Aula2;
+
+public class ProfissionalPoli extends PessoaGetSet{
+	private String Profissao; 
+	public ProfissionalPoli(String nome, String telefone, String profissao) {
+		super(nome, telefone);
+		this.Profissao = profissao;
+	}
+
+	@Override
+	//deve ser colocado nos métodos polimorficos e significa sobreescrito
+	public void exibir() {
+		super.exibir();
+		//Chama o exibir de Pessoa, imprimindo nome e telefone
+		
+	    System.out.println("\tTrabalha como "+Profissao);
+
+		
+		// Complementa a informação acerca da profissão
+		
+	}
+}
