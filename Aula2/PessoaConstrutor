@@ -1,0 +1,15 @@
+package Aula2;
+
+public class PessoaConstrutor {
+	String nome;
+	String telefone; 
+	
+	PessoaConstrutor(String nome, String telefone){
+		this.nome = nome; 
+		this.telefone = telefone;		
+	}
+	
+	void exibir() {
+		System.out.println(nome + "::" + telefone);		
+	}
+}
