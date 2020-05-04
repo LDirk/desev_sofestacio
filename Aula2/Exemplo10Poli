@@ -1,0 +1,14 @@
+package Aula2;
+
+public class Exemplo10Poli {
+	 public static void main(String[] args) {
+		 PessoaGetSet[] pessoas = {new PessoaGetSet ("Joao", "1111-1111"),
+				 new PessoaGetSet ("Maria", "2111-1111"),
+				 //Qualquer descendente pode ser utilizado no lugar da classe.
+				 new ProfissionalPoli ("luiz", "4111-1111","Advogado")};
+		 for (int i=0; i<3; i++)
+			 pessoas[i].exibir();
+			 		 
+	 }
+
+}
