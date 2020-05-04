@@ -1,0 +1,18 @@
+package Aula2;
+
+public class Exemplo10Construtor {
+
+	public static void main(String[] args) {
+		//Instanciando e inicializando os objetos p1 e p2
+		PessoaConstrutor p1 = new PessoaConstrutor("Joao", "1111-1111");
+		PessoaConstrutor p2 = new PessoaConstrutor("Maria", "1111-1111");
+
+		//chamando o método exibir em p1 e p2
+		p1.exibir();
+		p2.exibir();
+		
+		
+		
+	}
+
+}
